@@ -1,12 +1,18 @@
 import React from "react";
-import { SafeAreaView, StyleSheet,Text } from "react-native";
+import { SafeAreaView, StyleSheet, Text, ScrollView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Navbar from "./components/Navbar"; // Adjust the path as needed
+import Hero from "./components/Hero"; // Adjust the path as needed
+import Stats from "./components/Stats"; // Adjust the path as needed
 
 const HomeScreen = () => (
   <SafeAreaView style={styles.screenContainer}>
-    <Text style={styles.screenText}>Home Screen</Text>
+    <ScrollView>
+      <Hero />
+      <Stats />
+      <Text style={styles.screenText}>Home Screen</Text>
+    </ScrollView>
   </SafeAreaView>
 );
 
@@ -51,12 +57,12 @@ const styles = StyleSheet.create({
   },
   screenContainer: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
   },
   screenText: {
     fontSize: 20,
     color: "#000",
+    textAlign: "center",
+    marginVertical: 20,
   },
 });
 
