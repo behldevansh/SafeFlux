@@ -35,7 +35,7 @@ const localStyles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 0,
     paddingHorizontal: 5,
-    backgroundColor: "rgba(12, 11, 12, 0.77)",
+    // backgroundColor: "rgba(12, 11, 12, 0.77)",
   },
   contentContainer: {
     alignItems: "center",
@@ -47,12 +47,12 @@ const localStyles = StyleSheet.create({
   },
   headerText: {
     fontSize: 36,
-    color: "white",
+    color: "#424042",
     fontWeight: "bold",
     textAlign: "center",
   },
   gradientText: {
-    color: "#7cd6de", 
+    color: "#2192a6", 
   },
   paragraph: {
     fontSize: 18,

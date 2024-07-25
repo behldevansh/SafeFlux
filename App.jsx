@@ -5,12 +5,16 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Navbar from "./components/Navbar"; // Adjust the path as needed
 import Hero from "./components/Hero"; // Adjust the path as needed
 import Stats from "./components/Stats"; // Adjust the path as needed
+import Business from "./components/Use";
+import Steps from "./components/Steps"; // Adjust the path as needed
 
 const HomeScreen = () => (
   <SafeAreaView style={styles.screenContainer}>
     <ScrollView>
       <Hero />
       <Stats />
+      <Business />
+      <Steps />
       <Text style={styles.screenText}>Home Screen</Text>
     </ScrollView>
   </SafeAreaView>
