@@ -13,7 +13,7 @@ const Carousel = () => {
     Animated.loop(
       Animated.timing(scrollX, {
         toValue: -windowWidth * images.length / 2,
-        duration: 20000, // Adjust the duration to control the speed of the animation
+        duration: 20000, 
         useNativeDriver: true,
       })
     ).start();
@@ -59,12 +59,10 @@ const localStyles = StyleSheet.create({
     alignItems: "center",
   },
   heading2: {
-    alignItems: "center",
-    flex: 1,
-    fontSize: 20,
-    lineHeight: 50,
-    color: "black",
-    fontFamily: "Poppins",
+    fontSize: 36,
+    color: "#424042",
+    fontWeight: "bold",
+    textAlign: "center",
   },
   slider: {
     height: 110,

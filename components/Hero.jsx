@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, Dimensions } from "react-native";
-import { discount, hero } from "../assets"; // Ensure these assets are compatible with React Native
+import { discount, hero } from "../assets";
 
 const { width, height } = Dimensions.get("window");
 
@@ -57,7 +57,7 @@ const localStyles = StyleSheet.create({
     textAlign: "center",
   },
   gradientText: {
-    color: "#7cd6de", // Example gradient color
+    color: "#7cd6de", 
   },
   paragraph: {
     fontSize: 18,

@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, Dimensions } from "react-native";
-import { discount, hero } from "../assets"; // Ensure these assets are compatible with React Native
+import { discount, hero } from "../assets"; 
 
 const { width, height } = Dimensions.get("window");
 
