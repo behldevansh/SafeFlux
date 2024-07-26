@@ -2,12 +2,12 @@ import React from "react";
 import { SafeAreaView, StyleSheet, Text, ScrollView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import Navbar from "./components/Navbar"; // Adjust the path as needed
-import Hero from "./components/Hero"; // Adjust the path as needed
-import Stats from "./components/Stats"; // Adjust the path as needed
+import Navbar from "./components/Navbar"; 
+import Hero from "./components/Hero"; 
+import Stats from "./components/Stats"; 
 import Business from "./components/Use";
-import Steps from "./components/Steps"; // Adjust the path as needed
-
+import Steps from "./components/Steps"; 
+import Carousel from "./components/carousel";
 const HomeScreen = () => (
   <SafeAreaView style={styles.screenContainer}>
     <ScrollView>
@@ -15,6 +15,7 @@ const HomeScreen = () => (
       <Stats />
       <Business />
       <Steps />
+      <Carousel />
       <Text style={styles.screenText}>Home Screen</Text>
     </ScrollView>
   </SafeAreaView>
