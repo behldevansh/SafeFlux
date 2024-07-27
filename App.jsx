@@ -9,6 +9,10 @@ import Business from "./components/Use";
 import Steps from "./components/Steps"; 
 import Carousel from "./components/carousel";
 import Testimonials from "./components/Testimonial";
+import Footer from "./components/Footer";
+import Output from "./components/Output";
+import Home from "./components/Home";
+
 const HomeScreen = () => (
   <SafeAreaView style={styles.screenContainer}>
     <ScrollView>
@@ -17,8 +21,10 @@ const HomeScreen = () => (
       <Business />
       <Steps />
       <Carousel />
+      <Home />
+      <Output />
       <Testimonials />
-      <Text style={styles.screenText}>Home Screen</Text>
+      <Footer />
     </ScrollView>
   </SafeAreaView>
 );

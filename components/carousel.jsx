@@ -48,6 +48,15 @@ const Carousel = () => {
 };
 
 const localStyles = StyleSheet.create({
+ heroContainer: {
+    flex: 1,
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    paddingVertical: 50,
+    paddingHorizontal: 10,
+    backgroundColor: "#1C1C1E",
+  },
   container: {
     // backgroundColor: "#1F1F1F",
     borderRadius: 20,

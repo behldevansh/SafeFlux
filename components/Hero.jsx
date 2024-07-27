@@ -40,7 +40,7 @@ const localStyles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 50,
     paddingHorizontal: 10,
-    backgroundColor: "rgba(12, 11, 12, 0.77)",
+    backgroundColor: "#1C1C1E",
   },
   contentContainer: {
     alignItems: "center",

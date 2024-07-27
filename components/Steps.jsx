@@ -85,10 +85,17 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   heading2: {
-    fontSize: 24,
+    fontSize: 36,
+    color: "#2192a6", 
     fontWeight: "bold",
     textAlign: "center",
-    color: "#2192a6",
+  },
+  paragraph: {
+    fontSize: 18,
+    // color: "rgba(255, 255, 255, 0.7)",
+    textAlign: "center",
+    marginTop: 10,
+    maxWidth: 470,
   },
   smBlockHidden: {
     display: "none",

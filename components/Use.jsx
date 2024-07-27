@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   section: {
     paddingHorizontal: 20,
     paddingVertical: 40,
-    backgroundColor: "rgba(12, 11, 12, 0.77)",
+    backgroundColor: "#1C1C1E",
   },
   sectionInfo: {
     marginBottom: 40,
